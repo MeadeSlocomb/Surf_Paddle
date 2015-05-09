@@ -74,20 +74,22 @@ h2 {
 }
 
 .mainbody {
-	width: 960px;
+	width: 1005px;
 	margin: 20px auto;
 }
 
 .bodyleft {
 	float: left;
-	width: 600px;
+	width: 620px;
 	margin-right: 20px;
+	padding-left: 20px;
 }
 
 .bodyright {
 	float: left;
 	width: 295px;
 	margin-left: 45px;
+	padding-left: 5px;
 }
 
 .lefttitle {
@@ -98,7 +100,7 @@ h2 {
 	color: #0A3451;
 	width: 625px;
 	letter-spacing: 0px;
-	line-height: 65px;
+	line-height: 68px;
 }
 
 .tinypic {
@@ -118,12 +120,11 @@ h2 {
 
 .date {
 	color: #A8B7C2;
-	border-bottom: 1px solid #a8b7c2;
 	font-size: 13px;
 }
 
 .sig {
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-bottom: 20px;
 }
 
@@ -134,7 +135,7 @@ h2 {
 
 .maintext {
 	color: #545F66;
-	line-height: 24px;
+	line-height: 26px;
 }
 
 .radical {
@@ -147,21 +148,44 @@ h2 {
 	margin-bottom: 40px;
 	padding-bottom: 5px;
 	line-height: 60px;
-
 }
 
 .sideauthor {
 	color: #0D68AF;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 .social {
 	color: #A8B7C2;
 	font-size: 13px;
-	margin-bottom: 20px;
+	display: inline-block;
+	margin-bottom: 50px;
 }
 
+.soc {
+	margin-right: 10px;
+}
 
+.about {
+	padding-right: 10px;
+	float: right;
+}
 
+.sidetitle{
+	color: #0D68AF;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+	margin-top: 65px;
+	margin-bottom: 0px;
+}
+
+.sidetext {
+	margin-top: 0px;
+	line-height: 20px;
+	padding-left: 10px;
+	color: #A8B7C2;
+	font-size: 14px;
+}
 
 
