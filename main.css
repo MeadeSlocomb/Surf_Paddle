@@ -1,9 +1,5 @@
-/** {
-	border: 1px solid red;
-}*/
-
 .container {
-	background: white;
+	font-family:'Open Sans', sans-serif;
 }
 
 .titlecontainer {
@@ -17,7 +13,6 @@ nav {
 }
 
 .leftnav {
-	font-family:'Open Sans', sans-serif;
 	color: #083656;
 	position: relative;
 	left: 123px;
@@ -33,8 +28,7 @@ nav {
 	float: right;
 	margin-top: -30px;
 	font-family:'Oswald', sans-serif;
-	font-size: 18px;/*
-	font-weight: bold;*/
+	font-size: 18px;
 	color: #083656;
 	position: relative;
 	right: 160px;
@@ -52,7 +46,6 @@ nav {
 h1 {
 	text-align: center;
 	color: white;
-	font-family:'Open Sans', sans-serif;
 	font-size: 100px;
 	font-weight: 500;
 	margin-top: 0px;
@@ -66,7 +59,6 @@ h2 {
 	padding-top: 0px;
 	text-align: center;
 	font-size: 16px;
-	font-family:'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #083656;
 	position: relative;
@@ -74,37 +66,36 @@ h2 {
 }
 
 .mainbody {
-	width: 1005px;
-	margin: 20px auto;
+	margin: 20px 13%;
+	padding-bottom: 70px;
+	display: inline-block;
 }
 
 .bodyleft {
 	float: left;
-	width: 620px;
-	margin-right: 20px;
-	padding-left: 20px;
+	margin-right: 5.5%;
+	width: 65.5%;
 }
 
 .bodyright {
 	float: left;
-	width: 295px;
-	margin-left: 45px;
-	padding-left: 5px;
+	width: 27%;
+	margin-left: 2%;
 }
 
 .lefttitle {
-	margin-top: 45px;
+	margin-top: 43px;
 	margin-bottom: 10px;
 	font-family: 'Oswald', sans-serif;
-	font-size: 62px;
+	font-size: 63px;
 	color: #0A3451;
-	width: 625px;
-	letter-spacing: 0px;
-	line-height: 68px;
+	letter-spacing: -.5px;
+	line-height: 69px;
 }
 
 .tinypic {
 	width: 22px;
+	padding-right: 3px;
 }
 
 .authortext {
@@ -115,39 +106,95 @@ h2 {
 .on {
 	color: #A8B7C2;
 	font-size: 13px;
+	padding-left: 10px;
 
 }
 
 .date {
 	color: #A8B7C2;
 	font-size: 13px;
+	letter-spacing: .25px;
+	padding-left: 1px;
 }
 
 .sig {
-	padding-top: 0px;
-	padding-bottom: 20px;
+	padding: 0px 5px 0px 5px;
+	margin-bottom: 32px;
 }
+
+.sigtext {
+	bottom: 5px;
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+}
+
+.maintext {
+	color: #545F66;
+	line-height: 26px;
+	font-size: 15.8px;
+	letter-spacing: -.3px;
+}
+
+.p1 {
+	margin-bottom: 25px;
+}
+
+.p2 {
+	margin-bottom: 20px;
+}
+
+.radical {
+	color: #0D68AF;
+	font-size: 26px;
+	letter-spacing: 0px;
+	border-left: 2px solid #CBCBCB;
+	padding-left: 18px;
+	margin: 60px 0 0px 6px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	line-height: 60px;
+}
+
+.p3 {
+	margin-top: 25px;
+}
+
+.p4 {
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+.btn {
+	text-decoration: none;
+}
+
+.btnleft {
+	padding: 8.5px;
+	margin-left: 4px;
+	float: left;
+	display: block;
+	background: #5E686F;
+}
+
+.btnright {
+	padding: 8px 14px 10px 15px;
+	margin-right: 5px;
+	background: #A4B3BE;
+	font-size: 13.5px;
+	color: #F8F9FA;
+	float: left;
+	display: block;
+}
+
 
 .sidebartop {
 	text-align: center;
 	margin-top: 65px
 }
 
-.maintext {
-	color: #545F66;
-	line-height: 26px;
-}
-
-.radical {
-	color: #0D68AF;
-	font-size: 26px;
-	border-left: 2px solid #CBCBCB;
-	padding-left: 10px;
-	margin-top: 40px;
-	padding-top: 10px;
-	margin-bottom: 40px;
-	padding-bottom: 5px;
-	line-height: 60px;
+.greylink {
+	color: #A8B7C2;
 }
 
 .sideauthor {
@@ -168,7 +215,6 @@ h2 {
 }
 
 .about {
-	padding-right: 10px;
 	float: right;
 }
 
@@ -181,11 +227,59 @@ h2 {
 }
 
 .sidetext {
-	margin-top: 0px;
+	margin-top: 5px;
 	line-height: 20px;
 	padding-left: 10px;
 	color: #A8B7C2;
 	font-size: 14px;
 }
 
+.divider {
+	width: 100%;
+	border-bottom: 1px solid #A8B7C2;
+}
+
+footer {
+	display: inline-block;
+}
+
+.artlink {
+	width: 25%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+.foottitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 63px;
+	color: #0A3451;
+	margin: 40px 0;
+	text-align: center;
+}
+
+.artlink:after {
+  background: blue;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .4;
+  content: "";
+}
+
+.artlink:hover:after {
+  opacity: 0;
+}
+
+.footnav {
+	height: 70px;
+	width: 100%;
+	background-color: #083452;
+	float: left;
+	display: block;
+	margin-top: -5px;
+}
 
