@@ -1,5 +1,6 @@
 .container {
 	font-family:'Open Sans', sans-serif;
+	z-index: 1;
 }
 
 .titlecontainer {
@@ -79,8 +80,8 @@ h2 {
 
 .bodyright {
 	float: left;
-	width: 27%;
-	margin-left: 2%;
+	width: 26.5%;
+	margin-left: 2.5%;
 }
 
 .lefttitle {
@@ -160,6 +161,23 @@ h2 {
 	margin-top: 25px;
 }
 
+b {
+	position: relative;
+}
+
+.rollover {
+	display: inline;
+	visibility: hidden;
+	position: absolute;
+	left:10px;
+}
+
+.roll:hover .rollover{
+	visibility: visible;
+	padding: 1px;
+	border: black solid 1px;
+}
+
 .p4 {
 	padding-top: 10px;
 	padding-bottom: 1px;
@@ -170,7 +188,7 @@ h2 {
 }
 
 .btnleft {
-	padding: 8.5px;
+	padding: 7px;
 	margin-left: 4px;
 	float: left;
 	display: block;
@@ -178,7 +196,7 @@ h2 {
 }
 
 .btnright {
-	padding: 8px 14px 10px 15px;
+	padding: 6px 14px 6px 15px;
 	margin-right: 5px;
 	background: #A4B3BE;
 	font-size: 13.5px;
@@ -187,10 +205,13 @@ h2 {
 	display: block;
 }
 
+.btn:hover .btnright {
+	background: #106DB3;
+}
 
 .sidebartop {
 	text-align: center;
-	margin-top: 65px
+	margin-top: 50px;
 }
 
 .greylink {
@@ -214,24 +235,35 @@ h2 {
 	margin-right: 10px;
 }
 
+.soc3 {
+	margin-right: 0px;
+}
+
+.ad {
+	position: relative;
+}
+
 .about {
-	float: right;
+	position: absolute;
+	bottom: -15px;
+	right: -27px;
 }
 
 .sidetitle{
 	color: #0D68AF;
 	font-family: 'Oswald', sans-serif;
-	padding-left: 10px;
 	margin-top: 65px;
 	margin-bottom: 0px;
+	font-size: 19px;
+	letter-spacing: 0px;
 }
 
 .sidetext {
 	margin-top: 5px;
-	line-height: 20px;
-	padding-left: 10px;
+	line-height: 24px;
 	color: #A8B7C2;
 	font-size: 14px;
+	width: 112.5%;
 }
 
 .divider {
@@ -260,7 +292,7 @@ footer {
 }
 
 .artlink:after {
-  background: blue;
+  background: #083452;
   position: absolute;
   top:0;
   left: 0;
@@ -274,8 +306,30 @@ footer {
   opacity: 0;
 }
 
+figure {
+	width: 25%;
+	height: auto;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+
+figcaption {
+	font-family: 'Oswald', sans-serif;
+	color: #0A3451;
+	font-size: 30px;
+	display: inline;
+	position: absolute;
+	bottom: 0;
+
+}
+
+.artlink:hover figcaption {
+	color: #fff;
+}
+
 .footnav {
-	height: 70px;
+	height: 100px;
 	width: 100%;
 	background-color: #083452;
 	float: left;
@@ -283,3 +337,32 @@ footer {
 	margin-top: -5px;
 }
 
+.footext {
+	color: #A8B7C2;
+	font-size: 13px;
+}
+
+.navitem {
+	float: right;
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid #A8B7C2;
+}
+
+.footnav {
+	padding: 30px auto;
+}
+
+.fnavleft {
+	position: absolute;
+	padding: 33px 0;
+}
+
+.flogo {
+	padding-left: 11%;
+}
+
+.nav5 {
+	border: none;
+	padding-right: 11%;
+}
