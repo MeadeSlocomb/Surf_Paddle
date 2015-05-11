@@ -307,7 +307,7 @@ footer {
 }
 
 figure {
-	width: 25%;
+	width: 100%;
 	height: auto;
 	margin: 0;
 	float: left;
@@ -321,6 +321,9 @@ figcaption {
 	display: inline;
 	position: absolute;
 	bottom: 0;
+	width: 100%;
+	padding-bottom: 15px;
+	padding-left: 15px;
 
 }
 
@@ -329,40 +332,34 @@ figcaption {
 }
 
 .footnav {
-	height: 100px;
-	width: 100%;
-	background-color: #083452;
-	float: left;
-	display: block;
-	margin-top: -5px;
-}
-
-.footext {
+	display: inline-block;
+	width: 78%;
+	padding: 25px 11%;
 	color: #A8B7C2;
+	background: #083452;
+	margin-top: -5px;
 	font-size: 13px;
 }
 
-.navitem {
-	float: right;
-	display: inline-block;
-	padding: 0 10px;
+.vtext {
+	padding-left: 15px;
+}
+
+.footnavr {
+  padding: 13px 0;
+  float: right;
+}
+
+.nav {
+	padding-right: 10px;
+	padding-left: 10px;
 	border-right: 1px solid #A8B7C2;
-}
-
-.footnav {
-	padding: 30px auto;
-}
-
-.fnavleft {
-	position: absolute;
-	padding: 33px 0;
-}
-
-.flogo {
-	padding-left: 11%;
 }
 
 .nav5 {
 	border: none;
-	padding-right: 11%;
+}
+
+.vert {
+	vertical-align: middle;
 }
